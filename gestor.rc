@@ -1,0 +1,7 @@
+// Recursos de la interfaz grafica.
+//   1 24  -> manifiesto: activa los controles visuales modernos
+//   1 ICON -> icono de la aplicacion (se ve en el .exe y en el acceso directo)
+// Si tu MinGW no trae windres y da problemas, puedes quitar este fichero del
+// proyecto: la aplicacion seguira funcionando, solo sin icono propio.
+1 24 "gestor.manifest"
+1 ICON "gestor.ico"

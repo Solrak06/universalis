@@ -1,0 +1,37 @@
+# --- Datos personales: asignaturas, progreso, bases del profesor, configuracion de la IA
+datos/
+ia.json
+
+# --- Apuntes y material de las asignaturas (cada usuario pone los suyos)
+Asignaturas/
+Musica/
+
+# --- Copias de seguridad, capturas y pruebas locales
+QA/
+Portada_PL1/
+crear_portada_pl1.py
+diagnostico_ia.txt
+ejemplo_informe.html
+
+# --- Compilados (se generan con compilar.bat)
+*.exe
+*.o
+*.obj
+obj/
+bin/
+compilacion_*.log
+gestor_res.o
+output/
+
+# --- Python
+__pycache__/
+*.pyc
+profesor/python/
+
+# --- IDE y sistema
+GestorAsignaturas.depend
+GestorAsignaturas.layout
+.claude/
+desktop.ini
+Thumbs.db
+*.lnk
